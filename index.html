@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherPOD</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./app.js" ></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,800;1,200;1,300;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wraper">
+        <div>
+            <div class="serch-bar">
+                <span class="card-header_time"></span>
+                    <input type="text" class="search" id="city" value="mogilev">
+                  <button class="btn"><img src="./gif/icons8-search-30.png" alt=""></button>
+                </form>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-header_city"></span>
+                </div>
+                <div class="card-img"></div>
+                <p class="white-text"></p>
+                <div class="card-foter">
+                    <ul class="footer-list">
+                        <li ><img src="./gif/icons8-wind-96.png"> <span class="list-km"></span></li>
+                        <li ><img src="./gif/icons8-water-50.png"> <span class="list-procent"></span></li>
+                    </ul>
+                    <div class="footer-temp"></div>
+                </div>
+            </div>
+            <div class="card card-bot">
+                <div class="card-header">
+                    <span class="card-header_city">Tomorrow</span>
+                </div>
+                <div class="card-img img-tomorrow"></div>
+                <p class="white-text white-tomorrow"></p>
+                <div class="card-foter">
+                    <ul class="footer-list">
+                        <li ><img src="./gif/icons8-wind-96.png"> <span class="list-km km-tomorrow"></span></li>
+                        <li ><img src="./gif/icons8-water-50.png"> <span class="list-procent procent-tomorrow"></span></li>
+                    </ul>
+                    <div class="footer-temp temp-tomorrow"></div>
+                </div>
+            </div>
+            <div class="card card-bot">
+                <div class="card-header">
+                    <span class="card-header_city">After tomorrow</span>
+                </div>
+                <div class="card-img img-after"></div>
+                <p class="white-text white-after"></p>
+                <div class="card-foter">
+                    <ul class="footer-list">
+                        <li ><img src="./gif/icons8-wind-96.png"> <span class="list-km km-after"></span></li>
+                        <li ><img src="./gif/icons8-water-50.png"> <span class="list-procent procent-after"></span></li>
+                    </ul>
+                    <div class="footer-temp temp-after"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
